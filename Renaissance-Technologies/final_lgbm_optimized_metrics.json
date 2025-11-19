@@ -1,0 +1,29 @@
+{
+  "model_type": "Stacking",
+  "optimization": "RandomizedSearchCV + Ensemble/Feature Selection",
+  "test_roc_auc": 0.8073530338292763,
+  "test_pr_auc": 0.250059474633876,
+  "train_roc_auc": 0.8518469859696118,
+  "overfit_gap": 0.04449395214033558,
+  "n_features": 111,
+  "confusion_matrix": {
+    "true_negatives": 17081,
+    "false_positives": 0,
+    "false_negatives": 919,
+    "true_positives": 0
+  },
+  "precision": NaN,
+  "recall": 0.0,
+  "best_parameters": {
+    "subsample": 0.9,
+    "reg_lambda": 1.0,
+    "reg_alpha": 0,
+    "num_leaves": 40,
+    "n_estimators": 100,
+    "min_child_samples": 30,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.9
+  },
+  "scale_pos_weight": 18.59156462585034
+}

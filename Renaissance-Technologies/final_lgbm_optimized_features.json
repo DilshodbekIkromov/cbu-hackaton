@@ -1,0 +1,198 @@
+{
+  "features": [
+    "application_hour",
+    "application_day_of_week",
+    "account_open_year",
+    "random_noise_1",
+    "num_login_sessions",
+    "num_customer_service_calls",
+    "has_mobile_app",
+    "paperless_billing",
+    "age",
+    "annual_income",
+    "employment_length",
+    "num_dependents",
+    "employment_length_missing",
+    "credit_score",
+    "num_credit_accounts",
+    "oldest_credit_line_age",
+    "oldest_account_age_months",
+    "total_credit_limit",
+    "num_delinquencies_2yrs",
+    "num_inquiries_6mo",
+    "recent_inquiry_count",
+    "num_public_records",
+    "num_collections",
+    "account_diversity_index",
+    "loan_amount",
+    "loan_term",
+    "interest_rate",
+    "loan_to_value_ratio",
+    "monthly_income",
+    "existing_monthly_debt",
+    "monthly_payment",
+    "debt_to_income_ratio",
+    "debt_service_ratio",
+    "payment_to_income_ratio",
+    "credit_utilization",
+    "credit_usage_amount",
+    "available_credit",
+    "total_monthly_debt_payment",
+    "annual_debt_payment",
+    "loan_to_annual_income",
+    "total_debt_amount",
+    "monthly_free_cash_flow",
+    "revolving_balance_missing",
+    "regional_unemployment_rate",
+    "regional_median_income",
+    "regional_median_rent",
+    "housing_price_index",
+    "cost_of_living_index",
+    "income_to_loan_ratio",
+    "debt_to_income_pct",
+    "payment_burden",
+    "available_income",
+    "income_stability",
+    "high_utilization",
+    "recent_delinquency",
+    "credit_age_years",
+    "high_interest_flag",
+    "loan_to_income",
+    "is_mortgage",
+    "is_credit_card",
+    "total_risk_score",
+    "loan_purpose_target_enc",
+    "marketing_campaign_target_enc",
+    "state_target_enc",
+    "preferred_contact_Mail",
+    "preferred_contact_Phone",
+    "account_status_code_ACT-2",
+    "account_status_code_ACT-3",
+    "employment_type_full_time",
+    "employment_type_part_time",
+    "employment_type_self_employed",
+    "education_bachelor",
+    "education_graduate",
+    "education_high_school",
+    "education_some_college",
+    "marital_status_Married",
+    "marital_status_Single",
+    "loan_type_mortgage",
+    "loan_type_personal",
+    "loan_purpose_Home Improvement",
+    "loan_purpose_Home Purchase",
+    "loan_purpose_Major Purchase",
+    "loan_purpose_Medical",
+    "loan_purpose_Other",
+    "loan_purpose_Refinance",
+    "loan_purpose_Revolving Credit",
+    "origination_channel_Broker",
+    "origination_channel_Direct Mail",
+    "origination_channel_Online",
+    "state_CA",
+    "state_FL",
+    "state_GA",
+    "state_IL",
+    "state_IN",
+    "state_MA",
+    "state_MD",
+    "state_MI",
+    "state_MO",
+    "state_NC",
+    "state_NJ",
+    "state_NY",
+    "state_OH",
+    "state_PA",
+    "state_TN",
+    "state_TX",
+    "state_VA",
+    "state_WA",
+    "state_WI",
+    "credit_score_category_fair",
+    "credit_score_category_good",
+    "credit_score_category_poor"
+  ],
+  "n_features": 111,
+  "top_20_importance": [
+    {
+      "Feature": "credit_score",
+      "Importance": 142
+    },
+    {
+      "Feature": "credit_utilization",
+      "Importance": 97
+    },
+    {
+      "Feature": "age",
+      "Importance": 78
+    },
+    {
+      "Feature": "debt_to_income_ratio",
+      "Importance": 72
+    },
+    {
+      "Feature": "num_credit_accounts",
+      "Importance": 72
+    },
+    {
+      "Feature": "interest_rate",
+      "Importance": 66
+    },
+    {
+      "Feature": "monthly_free_cash_flow",
+      "Importance": 60
+    },
+    {
+      "Feature": "payment_to_income_ratio",
+      "Importance": 50
+    },
+    {
+      "Feature": "available_income",
+      "Importance": 38
+    },
+    {
+      "Feature": "random_noise_1",
+      "Importance": 37
+    },
+    {
+      "Feature": "loan_purpose_target_enc",
+      "Importance": 35
+    },
+    {
+      "Feature": "num_public_records",
+      "Importance": 33
+    },
+    {
+      "Feature": "state_target_enc",
+      "Importance": 32
+    },
+    {
+      "Feature": "payment_burden",
+      "Importance": 32
+    },
+    {
+      "Feature": "total_risk_score",
+      "Importance": 32
+    },
+    {
+      "Feature": "regional_unemployment_rate",
+      "Importance": 31
+    },
+    {
+      "Feature": "credit_usage_amount",
+      "Importance": 28
+    },
+    {
+      "Feature": "loan_type_personal",
+      "Importance": 28
+    },
+    {
+      "Feature": "employment_length",
+      "Importance": 28
+    },
+    {
+      "Feature": "marketing_campaign_target_enc",
+      "Importance": 27
+    }
+  ]
+}
